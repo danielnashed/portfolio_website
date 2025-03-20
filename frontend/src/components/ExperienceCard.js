@@ -13,21 +13,21 @@ export default function ExperienceCard({period, jobTitle, company, description, 
           </div>
             {/* Job details */}
             <div className={`flex w-full border-1 border-white hover:border-green-500 transition-all duration-300 cursor-pointer ${
-                expanded ? "h-auto" : "flex-col h-100"
+                expanded ? "flex-col h-100" : "h-auto"
             }`}
             onClick={() => setExpanded(!expanded)}>
                 {/* Job title */}
                 <div className="bg-white p-4 text-black text-2xl font-light text-center">
-                {jobTitle}
+                {company}
                 </div>
                 
                 {/* Company */}
                 <div className="bg-black text-white p-4 flex items-center justify-center text-2xl font-light">
-                {company}
+                {jobTitle}
                 </div>
                 
                 {/* Description - hidden by default, can be expanded if needed */}
-                {!expanded && description && (
+                {expanded && description && (
                 <div className="bg-black text-white p-4 text-medium border-t border-gray-800">
                     {description}
                     <div>

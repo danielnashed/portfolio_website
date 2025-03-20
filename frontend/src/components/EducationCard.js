@@ -13,7 +13,7 @@ export default function EducationCard({period, program, university, description,
           </div>
             {/* Job details */}
             <div className={`flex w-full border-1 border-white hover:border-green-500 transition-all duration-300 cursor-pointer ${
-                expanded ? "h-auto" : "flex-col h-100"
+                expanded ? "flex-col h-100" : "h-auto"
             }`}
             onClick={() => setExpanded(!expanded)}>
                 {/* University */}
@@ -27,7 +27,7 @@ export default function EducationCard({period, program, university, description,
                 </div>
                 
                 {/* Description - hidden by default, can be expanded if needed */}
-                {!expanded && description && (
+                {expanded && description && (
                 <div className="bg-black text-white p-4 text-medium border-t border-gray-800">
                     {description}
                         <div className="mt-4">
