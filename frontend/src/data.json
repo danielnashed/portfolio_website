@@ -117,7 +117,28 @@
       "description": "Built an event-driven architecture for a job search and resume generation platform using AWS Lambda & EventBridge. Integrated LangChain with ChatGPT for dynamic API calls and Retrieval Augmented Generation (RAG).",
       "technologies": ["AWS Lambda", "EventBridge", "LangChain", "ChatGPT", "Docker", "GitHub Actions"],
       "link": "AI Agent for Job Hunting.pdf",
-      "frontpic": "AI Agent for Job Search - Front Pic.png"
+      "frontpic": "Job Search Platform - Front Pic 2.gif"
+    },
+    {
+      "title": "CNN Object Detection for Self-Driving Cars",
+      "description": "Trained CNNs with TensorFlow for object detection & classification in urban environments and conducted experiments with hyperparameters & data augmentations to enhance model performance. Applied sensor fusion techniques, integrating 3D lidar point clouds with 2D camera data, along with Extended Kalman Filters & scan matching algorithms for multi-vehicle tracking & localization. Implemented tracking, motion-planning & trajectory-optimization algorithms, including PID controllers & finite state machines, to predict & execute vehicle behavior in CARLA Simulator.",
+      "technologies": ["TensorFlow", "CNNs", "3D Lidar", "2D Camera Data", "SLAM", "Trajectory Optimization", "Extended Kalman Filters", "Scan Matching", "PID Controllers", "Finite State Machines", "CARLA Simulator"],
+      "link": "https://github.com/danielnashed/object-detection-in-urban-environment-project",
+      "frontpic": "Self-Driving Car Object Detection - Front Pic.gif"
+    },
+    {
+      "title": "Concrete Strength Prediction using KNN",
+      "description": "Developed a Streamlit app to predict concrete compressive strength using the K-Nearest Neighbors (KNN) algorithm. Implemented an interactive UI for parameter selection and data visualization, including a parallel coordinates plot to analyze feature contributions.",
+      "technologies": ["Streamlit", "KNN", "Machine Learning", "Python", "Data Visualization"],
+      "link": "https://github.com/danielnashed/Concrete_Strength_Prediction_KNN",
+      "frontpic": "Concrete Strength Prediction - Front Pic.png"
+    },
+    {
+      "title": "Online Multiplayer Clue Game",
+      "description": "Developed an online multiplayer version of the classic Clue game, featuring real-time player interaction, game state management, and cloud-based hosting. Technologies include UI rendering, game logic engine, data layer for player profiles and multimedia, and API communication for seamless gameplay.",
+      "technologies": ["React", "Django", "PostgreSQL", "RESTful APIs", "WebSockets", "AWS EC2"],
+      "link": "https://github.com/danielnashed/clue-multiplayer-game",
+      "frontpic": "Clue Game - Front Pic.png"
     }
   ]
 }

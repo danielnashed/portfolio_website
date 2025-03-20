@@ -5,7 +5,7 @@ export default function ProjectCard({title, description, technologies, link, fro
     return (
         <div 
           className={`bg-white border-1 border-white hover:border-green-500 hover:border-2 transition-all duration-100 cursor-pointer ${
-            expanded ? 'col-span-3 row-span-2' : ''
+            expanded ? 'col-span-3 row-span-2 h-auto' : ''
           }`}
           onClick={() => setExpanded(!expanded)}
         >
@@ -13,7 +13,12 @@ export default function ProjectCard({title, description, technologies, link, fro
             {title}
           </div>
           
-          <div className="bg-black text-white p-4 h-64 overflow-hidden">
+          {/* <div className="bg-black text-white p-4 h-64 overflow-hidden"> */}
+          <div
+            className={`bg-black text-white p-4 overflow-hidden ${
+              expanded ? 'h-auto' : 'h-64'
+            }`}
+          >
             {expanded ? (
               <div className="flex flex-col space-y-4">
                 <p>{description}</p>
@@ -40,11 +45,13 @@ export default function ProjectCard({title, description, technologies, link, fro
                     View Project →
                   </a>
                 )}
+                <img
+                  src={`/assets/portfolios/${frontpic}`}
+                  alt={title}
+                  className="object-cover w-4/5 h-auto mx-auto pt-4"
+                />
               </div>
             ) : (
-              // <div className="flex items-center justify-center h-full">
-              //   <span className="text-gray-400">Click to expand</span>
-              // </div>
               // Show the frontpic image when not expanded
               <div className="h-full w-full flex items-center justify-center">
               <img
