@@ -4,7 +4,7 @@ export default function ProjectCard({title, description, technologies, link}) {
     const [expanded, setExpanded] = useState(false);
     return (
         <div 
-          className={`bg-white border-1 border-white hover:border-green-500 transition-all duration-300 cursor-pointer ${
+          className={`bg-white border-1 border-white hover:border-green-500 hover:border-2 transition-all duration-100 cursor-pointer ${
             expanded ? 'col-span-3 row-span-2' : ''
           }`}
           onClick={() => setExpanded(!expanded)}
@@ -31,7 +31,7 @@ export default function ProjectCard({title, description, technologies, link}) {
                 
                 {link && (
                   <a 
-                    href={link} 
+                    href={`/assets/portfolios/${link}`} 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-green-500 hover:underline mt-4 inline-block"

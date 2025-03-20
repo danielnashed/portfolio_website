@@ -12,7 +12,7 @@ export default function ExperienceCard({period, jobTitle, company, description, 
             </div>
           </div>
             {/* Job details */}
-            <div className={`flex w-full border-1 border-white hover:border-green-500 transition-all duration-300 cursor-pointer ${
+            <div className={`flex w-full border-1 border-white hover:border-green-500 hover:border-2 transition-all duration-100 cursor-pointer ${
                 expanded ? "flex-col h-100" : "h-auto"
             }`}
             onClick={() => setExpanded(!expanded)}>
@@ -44,13 +44,13 @@ export default function ExperienceCard({period, jobTitle, company, description, 
                         <div className="mt-4">
                             {link && (
                             <a 
-                                href={link} 
+                                href={link.startsWith("https") ? link : `/assets/portfolios/${link}`}
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="text-green-500 hover:underline mt-4 inline-block"
                                 onClick={(e) => e.stopPropagation()}
                             >
-                                View Project →
+                                View Work →
                             </a>
                             )}
                         </div>

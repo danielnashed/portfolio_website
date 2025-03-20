@@ -3,106 +3,118 @@
   "educations": [
     {
       "period": "2023 - 2025",
-      "program": "MS in Computer Science",
+      "program": "M.S. in Computer Science (GPA: 4.0)",
       "university": "Johns Hopkins University",
-      "description": "Description of responsibilities and achievements in this role.",
-      "link": "https://project1.example.com"
+      "description": "Relevant coursework: Machine learning, Deep learning, Reinforcement learning, Large language models, Data structures, Algorithms, Cloud-native architecture & microservices, Web development, Computer vision, NLP, Classical AI.",
+      "link": "JHU_Transcript.pdf"
     },
     {
       "period": "2022 - 2023",
       "program": "Self-Driving Car Engineer Nanodegree",
       "university": "Udacity",
-      "description": "Description of responsibilities and achievements in this role.",
-      "link": "https://project1.example.com"
+      "description": "Gained expertise in self-driving car technology, covering deep learning, computer vision, sensor fusion, and control systems.",
+      "link": "Udacity_Self_Driving_Car_NanoDegree.pdf"
     },
     {
-      "period": "2016- 2020",
-      "program": "BS in Mechanical Engineering",
+      "period": "2016 - 2020",
+      "program": "B.S. in Mechanical Engineering (Cum Laude)",
       "university": "UCLA",
-      "description": "Description of responsibilities and achievements in this role.",
-      "link": "https://project1.example.com"
+      "description": "Developed strong problem-solving and engineering skills, with coursework in robotics, control systems, and computational mechanics.",
+      "link": "UCLA_Diploma.jpg"
     }
   ],
   "expertise": [
     {
       "title": "Full-Stack Software Dev",
-      "logo": "Johns Hopkins University",
-      "description": "Description of responsibilities and achievements in this role."
+      "logo": "NetworkTree",
+      "description": "Developed a network productivity iOS app using React, Redux, ExpressJS, MongoDB, and AWS. Implemented backend features such as contact grouping, AI-powered message generation, authentication, and payments."
     },
     {
-      "title": "Machine Learning",
+      "title": "ML & AI",
       "logo": "Johns Hopkins University",
-      "description": "Description of responsibilities and achievements in this role."
+      "description": "Led AI projects involving LLMs, computer vision, clustering, and retrieval-augmented generation. Built pipelines automating document processing and classification using deep learning models."
     },
     {
-      "title": "AI Integration",
+      "title": "Robotics & Automation",
       "logo": "Johns Hopkins University",
-      "description": "Description of responsibilities and achievements in this role."
+      "description": "Led AI projects involving LLMs, computer vision, clustering, and retrieval-augmented generation. Built pipelines automating document processing and classification using deep learning models."
     }
   ],
   "skillGroups": {
-    "Languages": ["JavaScript", "TypeScript", "Python", "Java", "C++", "HTML", "CSS", "SQL"],
-    "Web Stack": ["React", "Vue.js", "Next.js", "Node.js", "Express", "Tailwind CSS", "Redux", "GraphQL", "Socket.io", "D3.js", "Stripe"],
-    "ML/AI Stack": ["Hugging Face", "LangChain", "MATLAB", "Pinecone"],
-    "Data": ["MongoDB", "NoSQL", "Firebase"],
-    "DevOps": ["Docker", "Kubernetes", "Jenkins", "Git", "AWS", "GCP", "Azure", "Confluence", "Slack", "Zoom"]
+    "Languages": ["Python", "JavaScript", "TypeScript", "Java", "C++", "SQL", "Bash/Shell"],
+    "Web Stack": ["React", "Next.js", "Node.js", "Express.js", "Django", "FastAPI", "Redux", "GraphQL", "Tailwind CSS"],
+    "ML/AI Stack": ["TensorFlow", "PyTorch", "Scikit-learn", "Keras", "Hugging Face", "LangChain", "LlamaIndex", "Pinecone"],
+    "Data": ["PostgreSQL", "MongoDB", "Redis", "ElasticSearch", "Apache Spark", "Kafka"],
+    "DevOps": ["AWS", "Docker", "Kubernetes", "Jenkins", "Terraform", "GCP", "Git"]
   },
   "experiences": [
     {
-      "period": "Jan 2025 - Present",
-      "jobTitle": "Job Title 1",
-      "company": "Company 1",
-      "description": "Description of responsibilities and achievements in this role.",
-      "technologies": ["React", "Tailwind CSS", "Node.js"],
-      "link": "https://project1.example.com"
-    },
-    {
       "period": "Sept 2024 - Present",
-      "jobTitle": "Job Title 2",
-      "company": "Company 2",
-      "description": "Description of responsibilities and achievements in this role.",
-      "technologies": ["React", "Tailwind CSS", "Node.js"],
-      "link": "https://project1.example.com"
+      "jobTitle": "Head of Software Engineering",
+      "company": "NetworkTree",
+      "description": "Employee #10 at an early-stage startup, developing a network productivity iOS app. Built backend for contact grouping, AI-powered message generation, OAuth authentication, and Stripe payments. Deployed the app on the Apple Store.",
+      "technologies": ["React", "Redux", "ExpressJS", "NodeJS", "MongoDB", "AWS", "Stripe", "OAuth", "Datadog", "ChatGPT"],
+      "link": "https://www.networktree.app/"
     },
     {
-      "period": "May 2023 – June 2024",
-      "jobTitle": "Job Title 3",
-      "company": "Company 3",
-      "description": "Description of responsibilities and achievements in this role.",
-      "technologies": ["React", "Tailwind CSS", "Node.js"],
-      "link": "https://project1.example.com"
+      "period": "Feb 2025 - Present",
+      "jobTitle": "Full-Stack Software Engineer",
+      "company": "Hopkins School of Public Health",
+      "description": "Developed a web app using React and ExpressJS to provide high school students with driving training tutorials and quizzes to enhance hazard perception. Integrated driving simulation modules for hands-on training. The app is currently deployed in Washington, D.C., serving over 2,000 students.",
+      "technologies": ["React", "ExpressJS", "NodeJS", "MongoDB", "Azure"],
+      "link": "https://www.hazardperception.org/home"
+    },
+    {
+      "period": "Sept 2023 - Present",
+      "jobTitle": "Vice President",
+      "company": "AI Society at Johns Hopkins",
+      "description": "Doubled student membership YoY through several initiatives inluding AI workshops, live coding demos, Kaggle competitions, industry speaker sessions and research projects. ",
+      "technologies": ["Kaggle", "Python", "TensorFlow", "PyTorch", "LLMs"],
+      "link": "https://jhu.campusgroups.com/hopai/home/"
+    },
+    {
+      "period": "Sept 2024 – Dec 2024",
+      "jobTitle": "AI Consultant",
+      "company": "Johns Hopkins Carey Business School",
+      "description": "Built a full pipeline automating web scraping and clustering of 50,000 documents by signature, achieving 92% accuracy and reducing the project timeline from 1 year to 3 months. Used YOLO V11 and ConvNext for feature extraction and clustering.",
+      "technologies": ["YOLO V11", "ConvNext", "K-means clustering", "DBSCAN", "PCA", "Autoencoder training", "CNN feature extraction", "Transfer learning", "Keras", "TensorFlow", "Scikit-learn", "OpenCV", "OCR"],
+      "link": "ML Pipeline for Document Clustering.pdf"
+    },
+    {
+      "period": "Dec 2023 – Dec 2024",
+      "jobTitle": "Co-Founder",
+      "company": "Oratio",
+      "description": "Led a team to develop a web app translating American Sign Language into AI-generated English voice in real-time. Integrated Google Mediapipe CV model for hand pose estimation, a fine-tuned vision transformer for gesture classification, and ElevenLabs for text-to-speech. Secured $12,000 in funding, participated in two incubators, and won a $2,000 judge prize at Spark Showcase..",
+      "technologies": ["Django", "React", "Google MediaPipe Computer Vision", "ElevenLabs", "Vision Transformer", "WebSockets", "Concurrent Programming", "AWS"],
+      "link": "https://ventures.jhu.edu/news/droply-fiesta-oratio-and-rectanav-win-the-judges-prize-at-pava-center-spark-showcase/"
+    },
+    {
+      "period": "Aug 2020 – Aug 2023",
+      "jobTitle": "Senior Mechanical Design Engineer",
+      "company": "Tesla",
+      "description": "Developed a software tool to automate design workflow by 10x, designed the Cybertruck wiper system & Model 3 pedestrian safety system, and invented a wiper mechanism (Intl. Patent WO2023107343).",
+      "technologies": ["Python", "MATLAB", "SolidWorks", "Catia", "ANSYS"],
+      "link": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2023107343"
     }
   ],
   "projects": [
     {
-      "title": "Project 1",
-      "description": "This is a detailed description of Project 1. It showcases my skills in building responsive web applications with modern technologies.",
-      "technologies": ["React", "Tailwind CSS", "Node.js"],
-      "link": "https://project1.example.com"
+      "title": "AI Research Trends Dashboard",
+      "description": "Developed FastAPI microservices with SQS queueing to automate daily ingestion, embedding & clustering of research papers. Used Kubernetes to deploy Docker containers & Amplify to host frontend.",
+      "technologies": ["FastAPI", "AWS SQS", "Kubernetes", "Docker", "Amplify"],
+      "link": "AI Research Trends Dashboard.pdf"
     },
     {
-      "title": "Project 2",
-      "description": "Project 2 focuses on data visualization and interactive user experiences. It includes complex state management and API integration.",
-      "technologies": ["React", "D3.js", "Firebase"],
-      "link": "https://project2.example.com"
+      "title": "LLM RAG Chatbot App",
+      "description": "Designed & deployed a RAG app with a chatbot interface, leveraging LangChain for an agentic framework, Llama model for LLM, Pinecone for vector database, and FastAPI + Next.js + TailwindCSS for web development.",
+      "technologies": ["LangChain", "Llama", "Pinecone", "FastAPI", "Next.js", "TailwindCSS"],
+      "link": "LLM RAG Chatbot App.pdf"
     },
     {
-      "title": "Project 3",
-      "description": "A mobile-first application with offline capabilities and seamless synchronization when connection is restored.",
-      "technologies": ["React Native", "Redux", "GraphQL"],
-      "link": "https://project3.example.com"
-    },
-    {
-      "title": "Project 4",
-      "description": "An e-commerce platform with integrated payment processing and inventory management system.",
-      "technologies": ["Next.js", "Stripe", "MongoDB"],
-      "link": "https://project4.example.com"
-    },
-    {
-      "title": "Project 5",
-      "description": "A real-time collaboration tool for teams with document sharing and communication features.",
-      "technologies": ["Vue.js", "Socket.io", "Express"],
-      "link": "https://project5.example.com"
+      "title": "Multi-agent LLM Job Search Platform",
+      "description": "Built an event-driven architecture for a job search and resume generation platform using AWS Lambda & EventBridge. Integrated LangChain with ChatGPT for dynamic API calls and Retrieval Augmented Generation (RAG).",
+      "technologies": ["AWS Lambda", "EventBridge", "LangChain", "ChatGPT", "Docker", "GitHub Actions"],
+      "link": "AI Agent for Job Hunting.pdf"
     }
   ]
 }
