@@ -131,7 +131,7 @@
       "description": "Developed a Streamlit app to predict concrete compressive strength using the K-Nearest Neighbors (KNN) algorithm. Implemented an interactive UI for parameter selection and data visualization, including a parallel coordinates plot to analyze feature contributions.",
       "technologies": ["Streamlit", "KNN", "Machine Learning", "Python", "Data Visualization"],
       "link": "https://github.com/danielnashed/Concrete_Strength_Prediction_KNN",
-      "frontpic": "Concrete Strength Prediction - Front Pic.png"
+      "frontpic": "KNN Prediction.gif"
     },
     {
       "title": "Online Multiplayer Clue Game",
@@ -139,6 +139,20 @@
       "technologies": ["React", "Django", "PostgreSQL", "RESTful APIs", "WebSockets", "AWS EC2"],
       "link": "https://github.com/danielnashed/clue-multiplayer-game",
       "frontpic": "Clue Game - Front Pic.png"
+    },
+    {
+      "title": "Training Neural Networks for Classification & Regression",
+      "description": "Conducted an experimental study on the performance of neural networks for classification and regression tasks across various datasets. Compared linear networks, non-linear feedforward networks with and without autoencoder pre-training, and a null model. Evaluated models on healthcare, automotive, and environmental datasets, demonstrating the superiority of non-linear networks, especially those pre-trained with autoencoders.",
+      "technologies": ["Neural Networks", "Autoencoders", "Machine Learning", "Classification", "Regression"],
+      "link": "https://github.com/danielnashed/Machine-Learning-Pipeline",
+      "frontpic": "Neural Network Training - Front Pic.gif"
+    },
+    {
+      "title": "Reinforcement Learning Agent Maze Navigation",
+      "description": "Analyzed the performance of reinforcement learning algorithms, including Value Iteration, Q-learning, and SARSA, across diverse race track and environmental settings with wall collisions. Evaluated algorithm strengths and weaknesses in handling complex scenarios, revealing Value Iteration’s robustness in simple environments and Q-learning and SARSA’s challenges in harsher conditions. Findings emphasize the importance of algorithm selection and adaptation to environmental complexities.",
+      "technologies": ["Reinforcement Learning", "Value Iteration", "Q-learning", "SARSA", "Machine Learning"],
+      "link": "https://github.com/danielnashed/Machine-Learning-Pipeline",
+      "frontpic": "RL Agent.gif"
     }
   ]
 }
