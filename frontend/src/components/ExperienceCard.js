@@ -28,7 +28,7 @@ export default function ExperienceCard({period, jobTitle, company, description, 
                 
                 {/* Description - hidden by default, can be expanded if needed */}
                 {expanded && description && (
-                <div className="bg-black text-white p-4 text-medium border-t border-gray-800">
+                <div className="bg-black text-white p-4 text-medium border-t border-neutral-700">
                     {description}
                     <div>
                         <div className="mt-4">

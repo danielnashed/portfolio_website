@@ -1,25 +1,25 @@
 {
-  "intro": "I am a motivated software engineer passionate about leveraging AI to solve real-world problems and drive innovation. At Johns Hopkins, I’ve demonstrated leadership and technical expertise across multiple impactful roles.",
+  "intro": "I am an entrepreneurial software engineer passionate about leveraging AI to solve high-impact real-world problems and driving innovation. I enjoy working on challenging engineering problems and learning new technology every day. I also love traveling, cooking and drawing.",
   "educations": [
     {
       "period": "2023 - 2025",
       "program": "M.S. in Computer Science (GPA: 4.0)",
       "university": "Johns Hopkins University",
-      "description": "Relevant coursework: Machine learning, Deep learning, Reinforcement learning, Large language models, Data structures, Algorithms, Cloud-native architecture & microservices, Web development, Computer vision, NLP, Classical AI.",
+      "description": "Relevant coursework: Machine learning, Deep learning, Reinforcement learning, Large language models, Data structures, Algorithms, Cloud-native architecture & microservices, Web development, Computer vision, NLP, Classical AI (state-space search, evolutionary algorithms, optimization, bayesian networks, symbolic AI).",
       "link": "JHU_Transcript.pdf"
     },
     {
       "period": "2022 - 2023",
       "program": "Self-Driving Car Engineer Nanodegree",
       "university": "Udacity",
-      "description": "Gained expertise in self-driving car technology, covering deep learning, computer vision, sensor fusion, and control systems.",
+      "description": "Gained expertise in full-stack technology of autonomous driving software, covering deep learning, computer vision, sensor fusion (camera + LiDAR), SLAM (Simultaneous Localization and Mapping), path planning, trajectory optimization and control.",
       "link": "Udacity_Self_Driving_Car_NanoDegree.pdf"
     },
     {
       "period": "2016 - 2020",
       "program": "B.S. in Mechanical Engineering (Cum Laude)",
       "university": "UCLA",
-      "description": "Developed strong problem-solving and engineering skills, with coursework in robotics, control systems, and computational mechanics.",
+      "description": "Focus in robotics and controls.",
       "link": "UCLA_Diploma.jpg"
     }
   ],
@@ -27,17 +27,17 @@
     {
       "title": "Full-Stack Software Dev",
       "logo": "NetworkTree",
-      "description": "Developed a network productivity iOS app using React, Redux, ExpressJS, MongoDB, and AWS. Implemented backend features such as contact grouping, AI-powered message generation, authentication, and payments."
+      "description":"Skilled in building scalable web applications using modern technologies like FastAPI, Django, React, Next.js and TailWindCSS. Extensive experience in cloud-native architecture (AWS & GCP), microservices, and DevOps tools like Docker, Kubernetes and CI/CD pipelines."
     },
     {
       "title": "ML & AI",
       "logo": "Johns Hopkins University",
-      "description": "Led AI projects involving LLMs, computer vision, clustering, and retrieval-augmented generation. Built pipelines automating document processing and classification using deep learning models."
+      "description": "Experienced in developing AI/ML solutions, with expertise in GenAI, AI Agents, Retrieval-Augmented Generation (RAG) and computer vision. Strong background in developing data pipelines, training & fine-tuning ML models using TensorFlow, PyTorch & Hugging Face and deploying models for inference."
     },
     {
       "title": "Robotics & Automation",
       "logo": "Johns Hopkins University",
-      "description": "Led AI projects involving LLMs, computer vision, clustering, and retrieval-augmented generation. Built pipelines automating document processing and classification using deep learning models."
+      "description": "Experienced in robotics and autonomous systems, with expertise in perception, motion planning, and control. Skilled in training computer vision and reinforcement learning models for robotic applications using TensorFlow, PyTorch, and OpenCV."
     }
   ],
   "skillGroups": {
@@ -111,7 +111,7 @@
       "link": "LLM RAG Chatbot App.pdf"
     },
     {
-      "title": "Multi-agent LLM Job Search Platform",
+      "title": "Job Search AI Agent",
       "description": "Built an event-driven architecture for a job search and resume generation platform using AWS Lambda & EventBridge. Integrated LangChain with ChatGPT for dynamic API calls and Retrieval Augmented Generation (RAG).",
       "technologies": ["AWS Lambda", "EventBridge", "LangChain", "ChatGPT", "Docker", "GitHub Actions"],
       "link": "AI Agent for Job Hunting.pdf"
