@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function ProjectCard({title, description, technologies, link}) {
+export default function ProjectCard({title, description, technologies, link, frontpic}) {
     const [expanded, setExpanded] = useState(false);
     return (
         <div 
@@ -42,9 +42,17 @@ export default function ProjectCard({title, description, technologies, link}) {
                 )}
               </div>
             ) : (
-              <div className="flex items-center justify-center h-full">
-                <span className="text-gray-400">Click to expand</span>
-              </div>
+              // <div className="flex items-center justify-center h-full">
+              //   <span className="text-gray-400">Click to expand</span>
+              // </div>
+              // Show the frontpic image when not expanded
+              <div className="h-full w-full flex items-center justify-center">
+              <img
+                src={`/assets/portfolios/${frontpic}`} 
+                alt={title}
+                className="object-cover w-full h-full"
+              />
+            </div>
             )}
           </div>
         </div>

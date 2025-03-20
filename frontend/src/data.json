@@ -25,17 +25,17 @@
   ],
   "expertise": [
     {
-      "title": "Full-Stack Software Dev",
+      "title": "💻 Full-Stack Software Dev",
       "logo": "NetworkTree",
       "description":"Skilled in building scalable web applications using modern technologies like FastAPI, Django, React, Next.js and TailWindCSS. Extensive experience in cloud-native architecture (AWS & GCP), microservices, and DevOps tools like Docker, Kubernetes and CI/CD pipelines."
     },
     {
-      "title": "ML & AI",
+      "title": "🧠 ML & AI",
       "logo": "Johns Hopkins University",
       "description": "Experienced in developing AI/ML solutions, with expertise in GenAI, AI Agents, Retrieval-Augmented Generation (RAG) and computer vision. Strong background in developing data pipelines, training & fine-tuning ML models using TensorFlow, PyTorch & Hugging Face and deploying models for inference."
     },
     {
-      "title": "Robotics & Automation",
+      "title": "🦾 Robotics",
       "logo": "Johns Hopkins University",
       "description": "Experienced in robotics and autonomous systems, with expertise in perception, motion planning, and control. Skilled in training computer vision and reinforcement learning models for robotic applications using TensorFlow, PyTorch, and OpenCV."
     }
@@ -102,19 +102,22 @@
       "title": "AI Research Trends Dashboard",
       "description": "Developed FastAPI microservices with SQS queueing to automate daily ingestion, embedding & clustering of research papers. Used Kubernetes to deploy Docker containers & Amplify to host frontend.",
       "technologies": ["FastAPI", "AWS SQS", "Kubernetes", "Docker", "Amplify"],
-      "link": "AI Research Trends Dashboard.pdf"
+      "link": "AI Research Trends Dashboard.pdf",
+      "frontpic": "AI Research Trends - Front Pic.png"
     },
     {
       "title": "LLM RAG Chatbot App",
       "description": "Designed & deployed a RAG app with a chatbot interface, leveraging LangChain for an agentic framework, Llama model for LLM, Pinecone for vector database, and FastAPI + Next.js + TailwindCSS for web development.",
       "technologies": ["LangChain", "Llama", "Pinecone", "FastAPI", "Next.js", "TailwindCSS"],
-      "link": "LLM RAG Chatbot App.pdf"
+      "link": "LLM RAG Chatbot App.pdf",
+      "frontpic": "LLM RAG Chatbot App - Front Pic.png"
     },
     {
       "title": "Job Search AI Agent",
       "description": "Built an event-driven architecture for a job search and resume generation platform using AWS Lambda & EventBridge. Integrated LangChain with ChatGPT for dynamic API calls and Retrieval Augmented Generation (RAG).",
       "technologies": ["AWS Lambda", "EventBridge", "LangChain", "ChatGPT", "Docker", "GitHub Actions"],
-      "link": "AI Agent for Job Hunting.pdf"
+      "link": "AI Agent for Job Hunting.pdf",
+      "frontpic": "AI Agent for Job Search - Front Pic.png"
     }
   ]
 }
