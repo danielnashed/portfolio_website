@@ -134,11 +134,18 @@
       "frontpic": "KNN Prediction.gif"
     },
     {
-      "title": "Online Multiplayer Clue Game",
-      "description": "Developed an online multiplayer version of the classic Clue game, featuring real-time player interaction, game state management, and cloud-based hosting. Technologies include UI rendering, game logic engine, data layer for player profiles and multimedia, and API communication for seamless gameplay.",
-      "technologies": ["React", "Django", "PostgreSQL", "RESTful APIs", "WebSockets", "AWS EC2"],
-      "link": "https://github.com/danielnashed/clue-multiplayer-game",
-      "frontpic": "Clue Game - Front Pic.png"
+      "title": "American Sign Language to English Voice Translation",
+      "description": "Led a team to develop a web app translating American Sign Language into AI-generated English voice in real-time. Integrated Google Mediapipe CV model for hand pose estimation, a fine-tuned vision transformer for gesture classification, and ElevenLabs for text-to-speech. Secured $12,000 in funding, participated in two incubators, and won a $2,000 judge prize at Spark Showcase..",
+      "technologies": ["Django", "React", "Google MediaPipe Computer Vision", "ElevenLabs", "Vision Transformer", "WebSockets", "Concurrent Programming", "AWS"],
+      "link": "https://ventures.jhu.edu/news/droply-fiesta-oratio-and-rectanav-win-the-judges-prize-at-pava-center-spark-showcase/",
+      "frontpic": "ASL to English.gif"
+    },
+    {
+      "title": "LLM Training Cost, Time, and Energy Estimation",
+      "description": "Implemented formulas from an LLM scaling laws paper to estimate the cost, training time, and energy consumption required to train a transformer model given perplexity, training tokens, GPU specifications, and floating-point precision. Analyzed the compute-optimal scaling strategy proposed in the Chinchilla paper, demonstrating how model size and dataset size should scale equally to maximize efficiency under a fixed compute budget.",
+      "technologies": ["Large Language Models", "Deep Learning", "GPU Compute", "Scaling Laws", "Machine Learning"],
+      "link": "https://github.com/danielnashed/LLM_Training_Estimation",
+      "frontpic": "LLM Training Cost.gif"
     },
     {
       "title": "Training Neural Networks for Classification & Regression",
@@ -153,6 +160,27 @@
       "technologies": ["Reinforcement Learning", "Value Iteration", "Q-learning", "SARSA", "Machine Learning"],
       "link": "https://github.com/danielnashed/Machine-Learning-Pipeline",
       "frontpic": "RL Agent.gif"
+    },
+    {
+      "title": "Health Data AI-Platform",
+      "description": "Developed an AI-driven platform that leverages daily health data from iPhone and Apple Watch to enhance doctor-patient relationships. Implemented live dashboards for real-time health data visualization, anomaly detection for identifying unusual health metric fluctuations, and a prediction module to forecast potential health risks. Designed a virtual health diary for patients to log daily well-being, diet, and exercise, adding context to their health metrics while ensuring full user control over data privacy.",
+      "technologies": ["AI", "Machine Learning", "Data Visualization", "HealthTech", "Apple HealthKit", "Privacy & Security"],
+      "link": "https://github.com/danielnashed/HopHacks2023",
+      "frontpic": "Panacea.png"
+    },
+    {
+      "title": "Autonomous Pool Playing Robot",
+      "description": "Led the electromechanical design and software development of a fully autonomous pool-playing robot. Developed a deep neural network using TensorFlow for object detection of cue balls and pockets. Designed a PWM-controlled striking mechanism with variable torque output, utilizing a gear train powered by a continuous servo motor to wind up and release a torsional spring. Implemented a trajectory optimization algorithm in MATLAB to determine optimal target ball-pocket pairs and built a physics-based model for generating corresponding motor torque.",
+      "technologies": ["Deep Learning", "TensorFlow", "MATLAB", "Trajectory Optimization", "Robotics", "Computer Vision"],
+      "link": "https://github.com/danielnashed/Autonomous_Pool_Robot",
+      "frontpic": "Pool Trajectory.gif"
+    },
+    {
+      "title": "Online Multiplayer Clue Game",
+      "description": "Developed an online multiplayer version of the classic Clue game, featuring real-time player interaction, game state management, and cloud-based hosting. Technologies include UI rendering, game logic engine, data layer for player profiles and multimedia, and API communication for seamless gameplay.",
+      "technologies": ["React", "Django", "PostgreSQL", "RESTful APIs", "WebSockets", "AWS EC2"],
+      "link": "https://github.com/danielnashed/clue-multiplayer-game",
+      "frontpic": "Clue Game - Front Pic.png"
     }
   ]
 }
