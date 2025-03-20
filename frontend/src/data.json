@@ -127,11 +127,11 @@
       "frontpic": "Self-Driving Car Object Detection - Front Pic.gif"
     },
     {
-      "title": "Concrete Strength Prediction using KNN",
-      "description": "Developed a Streamlit app to predict concrete compressive strength using the K-Nearest Neighbors (KNN) algorithm. Implemented an interactive UI for parameter selection and data visualization, including a parallel coordinates plot to analyze feature contributions.",
-      "technologies": ["Streamlit", "KNN", "Machine Learning", "Python", "Data Visualization"],
-      "link": "https://github.com/danielnashed/Concrete_Strength_Prediction_KNN",
-      "frontpic": "KNN Prediction.gif"
+      "title": "Multi-Agent LLM System for Stock Trading",
+      "description": "Developed a multi-agent framework integrated with rule-based AI to enhance the reasoning and planning capabilities of LLMs in dynamic financial environments. Implemented specialized agents for natural language processing, data analysis, and domain-specific reasoning, enabling parallel problem-solving and cross-validation. The system improves scalability, flexibility, and fault tolerance, allowing continuous adaptation to real-time financial market changes. By combining LLMs for contextual interpretation with rule-based systems for structured operations, the hybrid approach enhances decision-making accuracy and reliability.",
+      "technologies": ["LLMs", "Multi-Agent Systems", "Rule-Based AI", "Financial Modeling", "Machine Learning", "AI Planning"],
+      "link": "https://github.com/orgs/Agent-Finn/repositories",
+      "frontpic": "Finn.png"
     },
     {
       "title": "American Sign Language to English Voice Translation",
@@ -141,11 +141,11 @@
       "frontpic": "ASL to English.gif"
     },
     {
-      "title": "LLM Training Cost, Time, and Energy Estimation",
-      "description": "Implemented formulas from an LLM scaling laws paper to estimate the cost, training time, and energy consumption required to train a transformer model given perplexity, training tokens, GPU specifications, and floating-point precision. Analyzed the compute-optimal scaling strategy proposed in the Chinchilla paper, demonstrating how model size and dataset size should scale equally to maximize efficiency under a fixed compute budget.",
-      "technologies": ["Large Language Models", "Deep Learning", "GPU Compute", "Scaling Laws", "Machine Learning"],
-      "link": "https://github.com/danielnashed/LLM_Training_Estimation",
-      "frontpic": "LLM Training Cost.gif"
+      "title": "Concrete Strength Prediction using KNN",
+      "description": "Developed a Streamlit app to predict concrete compressive strength using the K-Nearest Neighbors (KNN) algorithm. Implemented an interactive UI for parameter selection and data visualization, including a parallel coordinates plot to analyze feature contributions.",
+      "technologies": ["Streamlit", "KNN", "Machine Learning", "Python", "Data Visualization"],
+      "link": "https://github.com/danielnashed/Concrete_Strength_Prediction_KNN",
+      "frontpic": "KNN Prediction.gif"
     },
     {
       "title": "Training Neural Networks for Classification & Regression",
@@ -167,6 +167,13 @@
       "technologies": ["AI", "Machine Learning", "Data Visualization", "HealthTech", "Apple HealthKit", "Privacy & Security"],
       "link": "https://github.com/danielnashed/HopHacks2023",
       "frontpic": "Panacea.png"
+    },
+    {
+      "title": "LLM Training Cost, Time, and Energy Estimation",
+      "description": "Implemented formulas from an LLM scaling laws paper to estimate the cost, training time, and energy consumption required to train a transformer model given perplexity, training tokens, GPU specifications, and floating-point precision. Analyzed the compute-optimal scaling strategy proposed in the Chinchilla paper, demonstrating how model size and dataset size should scale equally to maximize efficiency under a fixed compute budget.",
+      "technologies": ["Large Language Models", "Deep Learning", "GPU Compute", "Scaling Laws", "Machine Learning"],
+      "link": "https://github.com/danielnashed/LLM_Training_Estimation",
+      "frontpic": "LLM Training Cost.gif"
     },
     {
       "title": "Autonomous Pool Playing Robot",
