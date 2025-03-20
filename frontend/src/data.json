@@ -1,0 +1,50 @@
+{
+  "intro": "I am a motivated software engineer passionate about leveraging AI to solve real-world problems and drive innovation. At Johns Hopkins, I’ve demonstrated leadership and technical expertise across multiple impactful roles.",
+  "educations": [
+    {
+      "period": "2023 - 2025",
+      "program": "MS in Computer Science",
+      "university": "Johns Hopkins University",
+      "description": "Description of responsibilities and achievements in this role.",
+      "link": "https://project1.example.com"
+    },
+    {
+      "period": "2022 - 2023",
+      "program": "Self-Driving Car Engineer Nanodegree",
+      "university": "Udacity",
+      "description": "Description of responsibilities and achievements in this role.",
+      "link": "https://project1.example.com"
+    },
+    {
+      "period": "2016- 2020",
+      "program": "BS in Mechanical Engineering",
+      "university": "UCLA",
+      "description": "Description of responsibilities and achievements in this role.",
+      "link": "https://project1.example.com"
+    }
+  ],
+  "expertise": [
+    {
+      "title": "Full-Stack Software Dev",
+      "logo": "Johns Hopkins University",
+      "description": "Description of responsibilities and achievements in this role."
+    },
+    {
+      "title": "Machine Learning",
+      "logo": "Johns Hopkins University",
+      "description": "Description of responsibilities and achievements in this role."
+    },
+    {
+      "title": "AI Integration",
+      "logo": "Johns Hopkins University",
+      "description": "Description of responsibilities and achievements in this role."
+    }
+  ],
+  "skillGroups": {
+    "Languages": ["JavaScript", "TypeScript", "Python", "Java", "C++", "HTML", "CSS", "SQL"],
+    "Web Stack": ["React", "Vue.js", "Next.js", "Node.js", "Express", "Tailwind CSS", "Redux", "GraphQL", "Socket.io", "D3.js", "Stripe"],
+    "ML/AI Stack": ["Hugging Face", "LangChain", "MATLAB", "Pinecone"],
+    "Data": ["MongoDB", "NoSQL", "Firebase"],
+    "DevOps": ["Docker", "Kubernetes", "Jenkins", "Git", "AWS", "GCP", "Azure", "Confluence", "Slack", "Zoom"]
+  }
+}
