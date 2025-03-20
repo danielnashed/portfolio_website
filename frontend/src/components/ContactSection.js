@@ -12,7 +12,7 @@ export default function ContactSection() {
           {/* <div className="flex flex-row justify-between items-start grid-cols-3"> */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
             <div>
-                <p className="text-neutral-400 mb-4">github</p>
+                <p className="text-neutral-400 mb-4">explore my work</p>
                 <p>
                     <span className="text-neutral-400">{'>'} </span>
                     <a href="https://github.com/danielnashed" 

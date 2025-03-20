@@ -1,42 +1,9 @@
 import React from 'react';
 import ExperienceCard from '../components/ExperienceCard';
+import jsonData from '../data.json';
 
 export default function ExperienceSection() {
-
-  const experiences = [
-    {
-      period: "Jan 2025 - Present",
-      jobTitle: "Job Title 1",
-      company: "Company 1",
-      description: "Description of responsibilities and achievements in this role.",
-      technologies: ["React", "Tailwind CSS", "Node.js"],
-      link: "https://project1.example.com"
-    },
-    {
-      period: "Sept 2024 - Present",
-      jobTitle: "Job Title 2",
-      company: "Company 2",
-      description: "Description of responsibilities and achievements in this role.",
-      technologies: ["React", "Tailwind CSS", "Node.js"],
-      link: "https://project1.example.com"
-    },
-    {
-      period: "May 2023 – June 2024",
-      jobTitle: "Job Title 3",
-      company: "Company 3",
-      description: "Description of responsibilities and achievements in this role.",
-      technologies: ["React", "Tailwind CSS", "Node.js"],
-      link: "https://project1.example.com"
-    }
-  ];
-
-
-  //   return (
-  //     <section id="experience" className="h-screen flex justify-center items-center pt-16">
-  //       <h2 className="text-4xl">Experience</h2>
-  //     </section>
-  //   );
-  // }
+  const { experiences } = jsonData;
 
   return (
     <section id="experience" className="min-h-screen bg-black py-20">
