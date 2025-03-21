@@ -6,7 +6,7 @@
       "program": "M.S. in Computer Science (GPA: 4.0)",
       "university": "Johns Hopkins University",
       "description": "Relevant coursework: Machine learning, Deep learning, Reinforcement learning, Large language models, Data structures, Algorithms, Cloud-native architecture & microservices, Web development, Computer vision, NLP, Classical AI (state-space search, evolutionary algorithms, optimization, bayesian networks, symbolic AI).",
-      "link": ""
+      "link": "https://www.cs.jhu.edu/"
     },
     {
       "period": "2022 - 2023",
@@ -20,7 +20,7 @@
       "program": "B.S. in Mechanical Engineering (Cum Laude)",
       "university": "UCLA",
       "description": "Focus in robotics and controls.",
-      "link": ""
+      "link": "https://www.mae.ucla.edu/"
     }
   ],
   "expertise": [
@@ -76,7 +76,7 @@
       "period": "Sept 2024 – Dec 2024",
       "jobTitle": "AI Consultant",
       "company": "Johns Hopkins Carey Business School",
-      "description": "Built a full pipeline automating web scraping and clustering of 50,000 documents by signature, achieving 92% accuracy and reducing the project timeline from 1 year to 3 months. Used YOLO V11 and ConvNext for feature extraction and clustering.",
+      "description": "Built a full pipeline automating web scraping and clustering of 50,000 documents by signature, achieving 92% accuracy and reducing the project timeline from 1 year to 3 months. Used YOLO V11, ConvNext and KMeans for feature extraction and clustering.",
       "technologies": ["YOLO V11", "ConvNext", "K-means clustering", "DBSCAN", "PCA", "Autoencoder training", "CNN feature extraction", "Transfer learning", "Keras", "TensorFlow", "Scikit-learn", "OpenCV", "OCR"],
       "link": "ML Pipeline for Document Clustering.pdf"
     },
@@ -84,7 +84,7 @@
       "period": "Dec 2023 – Dec 2024",
       "jobTitle": "Co-Founder",
       "company": "Oratio",
-      "description": "Led a team to develop a web app translating American Sign Language into AI-generated English voice in real-time. Integrated Google Mediapipe CV model for hand pose estimation, a fine-tuned vision transformer for gesture classification, and ElevenLabs for text-to-speech. Secured $12,000 in funding, participated in two incubators, and won a $2,000 judge prize at Spark Showcase..",
+      "description": "Led a team to develop a web app translating American Sign Language into AI-generated English voice in real-time. Integrated Google Mediapipe CV model for hand pose estimation, a fine-tuned vision transformer for gesture classification, and ElevenLabs for text-to-speech. Secured $12,000 in funding, participated in two incubators, and won a $2,000 judge prize at Spark Showcase.",
       "technologies": ["Django", "React", "Google MediaPipe Computer Vision", "ElevenLabs", "Vision Transformer", "WebSockets", "Concurrent Programming", "AWS"],
       "link": "https://ventures.jhu.edu/news/droply-fiesta-oratio-and-rectanav-win-the-judges-prize-at-pava-center-spark-showcase/"
     },
@@ -128,7 +128,7 @@
     },
     {
       "title": "Multi-Agent LLM System for Stock Trading",
-      "description": "Developed a multi-agent framework integrated with rule-based AI to enhance the reasoning and planning capabilities of LLMs in dynamic financial environments. Implemented specialized agents for natural language processing, data analysis, and domain-specific reasoning, enabling parallel problem-solving and cross-validation. The system improves scalability, flexibility, and fault tolerance, allowing continuous adaptation to real-time financial market changes. By combining LLMs for contextual interpretation with rule-based systems for structured operations, the hybrid approach enhances decision-making accuracy and reliability.",
+      "description": "Developed a multi-agent LLM system to manage a portfolio of stocks with different risk profiles. Implemented specialized AI agents for technical quantitative analysis, qualitative analysis from SEC filings (10-k documents), macroeconomic data analysis and stock news + social media sentiment analysis.",
       "technologies": ["GCP", "Gemini", "Claude", "LangChain", "LangGraph", "RAG", "Pinecone", "Multi-modal Embeddings", "MongoDB", "BigQuery", "PostgreSQL", "Pub/Sub", "FastAPI", "Docker", "Kubernetes", "Next.js", "TailwindCSS", "GitHub Actions"],
       "link": "https://github.com/orgs/Agent-Finn/repositories",
       "frontpic": "Finn.png"
@@ -149,27 +149,27 @@
     },
     {
       "title": "Training Neural Networks for Classification & Regression",
-      "description": "Conducted an experimental study on the performance of neural networks for classification and regression tasks across various datasets. Compared linear networks, non-linear feedforward networks with and without autoencoder pre-training, and a null model. Evaluated models on healthcare, automotive, and environmental datasets, demonstrating the superiority of non-linear networks, especially those pre-trained with autoencoders.",
+      "description": "Conducted an experimental study on the performance of neural networks for classification and regression tasks across various datasets. Compared linear networks and non-linear feedforward networks with and without autoencoder pre-training. Evaluated models on healthcare, automotive, and environmental datasets, demonstrating the superiority of non-linear networks, especially those pre-trained with autoencoders.",
       "technologies": ["Neural Networks", "Autoencoders", "Machine Learning", "Classification", "Regression", "Hyperparameter Tuning"],
       "link": "https://github.com/danielnashed/Machine-Learning-Pipeline",
       "frontpic": "Neural Network Training - Front Pic.gif"
     },
     {
       "title": "Reinforcement Learning Agent Maze Navigation",
-      "description": "Analyzed the performance of reinforcement learning algorithms, including Value Iteration, Q-learning, and SARSA, across diverse race track and environmental settings with wall collisions. Evaluated algorithm strengths and weaknesses in handling complex scenarios, revealing Value Iteration’s robustness in simple environments and Q-learning and SARSA’s challenges in harsher conditions. Findings emphasize the importance of algorithm selection and adaptation to environmental complexities.",
+      "description": "Analyzed the performance of reinforcement learning algorithms, including Value Iteration, Q-learning, and SARSA, across diverse race track and environmental settings with wall collisions. Evaluated algorithm strengths and weaknesses in handling complex scenarios, revealing Value Iteration’s robustness in simple environments and Q-learning and SARSA’s challenges in harsher conditions.",
       "technologies": ["Reinforcement Learning", "Value Iteration", "Q-learning", "SARSA"],
       "link": "https://github.com/danielnashed/Machine-Learning-Pipeline",
       "frontpic": "RL Agent.gif"
     },
     {
       "title": "Health Data AI-Platform",
-      "description": "Developed an AI-driven platform that leverages daily health data from iPhone and Apple Watch to enhance doctor-patient relationships. Implemented live dashboards for real-time health data visualization, anomaly detection for identifying unusual health metric fluctuations, and a prediction module to forecast potential health risks. Designed a virtual health diary for patients to log daily well-being, diet, and exercise, adding context to their health metrics while ensuring full user control over data privacy.",
+      "description": "Developed an AI-driven platform that leverages daily health data from Apple Watch + patient diary logs for diet, exercise and symptoms to empower doctors with diagnostic insights.",
       "technologies": ["ChatGPT", "Streamlit"],
       "link": "https://github.com/danielnashed/HopHacks2023",
       "frontpic": "Panacea.png"
     },
     {
-      "title": "LLM Training Cost, Time, and Energy Estimation",
+      "title": "LLM Training Cost, Time, and Energy Calculator",
       "description": "Implemented formulas from an LLM scaling laws paper to estimate the cost, training time, and energy consumption required to train a transformer model given perplexity, training tokens, GPU specifications, and floating-point precision. Analyzed the compute-optimal scaling strategy proposed in the Chinchilla paper, demonstrating how model size and dataset size should scale equally to maximize efficiency under a fixed compute budget.",
       "technologies": ["Large Language Models", "Deep Learning", "GPU Compute", "Scaling Laws", "Tokenization"],
       "link": "https://github.com/danielnashed/LLM_Training_Estimation",
@@ -177,7 +177,7 @@
     },
     {
       "title": "Autonomous Pool Playing Robot",
-      "description": "Led the electromechanical design and software development of a fully autonomous pool-playing robot. Developed a deep neural network using TensorFlow for object detection of cue balls and pockets. Designed a PWM-controlled striking mechanism with variable torque output, utilizing a gear train powered by a continuous servo motor to wind up and release a torsional spring. Implemented a trajectory optimization algorithm in MATLAB to determine optimal target ball-pocket pairs and built a physics-based model for generating corresponding motor torque.",
+      "description": "Led software development of a fully autonomous pool-playing robot. Trained a CCN using TensorFlow for object detection of cue balls and pockets. Implemented a trajectory optimization algorithm in MATLAB to determine optimal shot for robot to execute and built a physics-based model for generating required motor torque.",
       "technologies": ["Deep Learning", "TensorFlow", "MATLAB", "Trajectory Optimization", "Robotics", "Computer Vision"],
       "link": "https://github.com/danielnashed/Autonomous_Pool_Robot",
       "frontpic": "Pool Trajectory.gif"
