@@ -42,6 +42,13 @@ export default function AboutSection() {
                 // About Me
                 </h2>
                 <p className="text-lg mb-2 p-10 text-justify">{intro}</p>
+                <div className="flex justify-center my-6">
+                    <img
+                        src="/assets/ProfilePic.jpg" // Replace with the path to your profile image
+                        alt="Profile"
+                        className="w-[30%] h-auto object-cover"
+                    />
+                </div>
                 <h3 className="text-3xl text-white font-light text-center py-6 border-b-1 border-neutral-500">
                 Education
                 </h3>
