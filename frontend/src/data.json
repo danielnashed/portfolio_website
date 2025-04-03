@@ -41,11 +41,11 @@
     }
   ],
   "skillGroups": {
-    "Languages": ["Python", "JavaScript", "TypeScript", "Java", "C++", "SQL", "Bash/Shell"],
+    "Languages": ["Python", "JavaScript", "TypeScript", "Java", "C++", "SQL", "Bash/Shell", "Git"],
     "Web Stack": ["React", "Next.js", "Node.js", "Express.js", "Django", "FastAPI", "Redux", "GraphQL", "Tailwind CSS"],
-    "ML/AI Stack": ["TensorFlow", "PyTorch", "Scikit-learn", "Keras", "Hugging Face", "LangChain", "LlamaIndex", "Pinecone"],
-    "Data": ["PostgreSQL", "MongoDB", "Redis", "ElasticSearch", "Apache Spark", "Kafka"],
-    "DevOps": ["AWS", "Docker", "Kubernetes", "Jenkins", "Terraform", "GCP", "Git"]
+    "ML/AI Stack": ["TensorFlow", "PyTorch", "Scikit-learn", "Keras", "Hugging Face", "LangChain", "LlamaIndex", "Pinecone", "Weights & Biases", "MLflow", "OpenCV", "AWS Bedrock", "Google Vertex AI", "Arize Phoenix"],
+    "Data": ["PostgreSQL", "MongoDB", "Redis", "ElasticSearch", "Apache Spark", "Kafka", "DataBricks"],
+    "DevOps": ["AWS", "Docker", "Kubernetes", "Jenkins", "Terraform", "GCP", "GitHub Actions"]
   },
   "experiences": [
     {
@@ -135,9 +135,16 @@
     },
     {
       "title": "American Sign Language to English Voice Translation",
-      "description": "Led a team to develop a web app translating American Sign Language into AI-generated English voice in real-time. Integrated Google Mediapipe CV model for hand pose estimation, a fine-tuned vision transformer for gesture classification, and ElevenLabs for text-to-speech. Secured $12,000 in funding, participated in two incubators, and won a $2,000 judge prize at Spark Showcase..",
+      "description": "Led a team to develop a web app translating American Sign Language into AI-generated English voice in real-time. Integrated Google Mediapipe CV model for hand pose estimation, a fine-tuned vision transformer for gesture classification, and ElevenLabs for text-to-speech. Secured $12,000 in funding, participated in two incubators, and won a $2,000 judge prize at Spark Showcase.",
       "technologies": ["Django", "React", "Google MediaPipe Computer Vision", "ElevenLabs", "Vision Transformer", "WebSockets", "Concurrent Programming", "AWS"],
       "link": "https://ventures.jhu.edu/news/droply-fiesta-oratio-and-rectanav-win-the-judges-prize-at-pava-center-spark-showcase/",
+      "frontpic": "ASL to English.gif"
+    },
+    {
+      "title": "Efficient Fine-tuning with LoRA for LLMs",
+      "description": "Developed an interactive Gradio-based LLM Fine-tuning App that streamlines model selection, dataset creation, fine-tuning, and inference all in 5 clicks. Integrated PEFT-based LoRA adapters to efficient fine-tuning of small LLMs (<1b paraneters), automated synthetic data generation using GPT-4, and implemented BLEU-based evaluation. Integrated Weights & Biases (W&B) for experiment tracking and hyperparameter tuning, enabling users to monitor training progress and performance metrics in real-time.",
+      "technologies": ["HuggingFace Transformers", "Gradio", "Synthetic Data Generation with LLMs", "Weights & Biases", "LoRA (Low-Rank Adaptation)", "PyTorch"],
+      "link": "https://huggingface.co/spaces/danielnashed/finetuning-llms",
       "frontpic": "ASL to English.gif"
     },
     {
